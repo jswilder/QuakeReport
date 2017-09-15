@@ -60,7 +60,7 @@ public class EarthQuakeData {
 
     public String getmDateAsString(){
         Date date = new Date(mDate);
-        SimpleDateFormat dateFormat = new SimpleDateFormat("MMM DD, yyyy");
+        SimpleDateFormat dateFormat = new SimpleDateFormat("MMM DD, yy");
         return (String)dateFormat.format(date);
     }
 

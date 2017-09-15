@@ -48,7 +48,7 @@ public class EarthQuakeAdapter extends ArrayAdapter {
         int magColor = getMagnitudeColor(currentQuake.getmMagnitude());
         magCircle.setColor(magColor);
 
-        DecimalFormat formatter = new DecimalFormat("0.00");
+        DecimalFormat formatter = new DecimalFormat("0.0");
         String mag = formatter.format(currentQuake.getmMagnitude());
         cityName.setText( currentQuake.getmLocation() );
         magnitude.setText( mag );
