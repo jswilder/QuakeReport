@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    >
+
+    <TextView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:id="@+id/Magnitude_text_view"
+        android:background="@drawable/magnitude_circle"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:gravity="center"
+        tools:text="7.8"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="8dp"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/City_text_view"
+        android:layout_weight="2"
+        tools:text="Charlotte"
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Date_text_view"
+        android:layout_weight="2"
+        tools:text="January 31, 1872"
+        />
+
+</LinearLayout>
