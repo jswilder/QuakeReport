@@ -26,17 +26,6 @@ public class EarthQuakeData {
         }
     }
 
-    EarthQuakeData(EarthQuakeData data){
-        this.mLocation = data.getmLocation();
-        this.mDate = data.getmDate();
-        this.mMagnitude = data.getmMagnitude();
-    }
-
-    EarthQuakeData(){
-        mLocation = "Default City";
-        mDate = (long)1505336673;
-        mMagnitude = 1.0;
-    }
 
     public String getmLocation() {
         return mLocation;
